@@ -1350,6 +1350,14 @@ config NT_TOUCH_NOTIFIER
 	  Enabling this option adds nt TP fod event notifier driver.
 	  This driver is responsible for notifying clients, such as fingerprint.
 
+config NOTHING_IS_ASTEROIDS
+	bool "Determine if Asteroids project"
+	default n
+
+config NOTHING_IS_FROGGER
+	bool "Determine if Frogger project"
+	default n
+
 config QCOM_SC_TCM_MEM
 	tristate "Add SC TCM memory management"
 	select GENERIC_ALLOCATOR
